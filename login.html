@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn page</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .mainform{
+           
+           width: 100%;
+           background-image: url(bgimg2.jpg);
+           background-repeat: no-repeat;
+           /* background-color: aqua; */
+        }
+        .container{height: 80vh;
+            width: 70%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(79, 88, 99, 0.426);
+            flex-direction: column;
+            gap: 10px;
+            
+        }
+        .container :first-child{
+            color: aliceblue;
+            font-weight: bolder;
+        }
+        .container :nth-child(4){
+            padding: 8px;
+            color: azure;
+            background-color: rgb(79, 119, 150);
+            font-size: 15px;
+            border-radius: 8px;
+            font-weight: bolder;
+        }
+        .inp{
+            color: rgb(15, 70, 118);
+           padding: 8px;
+           font-size: 15px;
+            border-radius: 8px;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainform">
+        <form action="" class="container">
+            <h1>LogIn Page</h1>
+        <input type="text" id="Email" class="inp" placeholder="Enter your Email">
+        <input type="password" id="Password" class="inp" placeholder="Enter your Password">
+        <button>LogIn</button>
+    </div>
+        </form>
+
+</body>
+</html>
