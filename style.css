@@ -142,8 +142,48 @@ nav img {
     width: 22vw;
     right: 62px;
 }
+
+.qnatext{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
 .qna{
     display: flex;
-    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(17, 12, 12);
     padding: 34px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+ .faq{
+    cursor: pointer;
+    background-color:rgb(79, 77, 77);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 5px;
+    padding: 15px;
+ }
+ .faq:hover{
+    background-color: rgb(103, 106, 109);
+ }
+ .faqtext{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+ }
+ .hero  input{
+    color: white;
+    padding: 10px 28px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgba(23,23,23,0.55);
 }
